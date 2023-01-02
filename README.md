@@ -6,6 +6,8 @@
 > :desktop_computer: Enter this commmand to save it to a file on your desktop; 
 
 > :heavy_exclamation_mark: make sure you don't already have a backup on your Desktop or you can modify the export path, after >>)
+
+### File 1:
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist >> ~/Desktop/LaunchPadLayout.plist
 ```
