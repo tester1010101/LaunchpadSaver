@@ -16,7 +16,7 @@ cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.pli
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.plist > ~/Desktop/LaunchPadLayout2.plist
 ```
-### File 2:
+### File 3:
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist > ~/Desktop/LaunchPadLayout3.plist
 ```
