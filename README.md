@@ -10,11 +10,15 @@
 
 ### File 1:
 ```
-cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist >> ~/Desktop/LaunchPadLayout.plist
+cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist > ~/Desktop/LaunchPadLayout.plist
 ```
 ### File 2:
 ```
-cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist >> ~/Desktop/LaunchPadLayout.plist
+cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.plist > ~/Desktop/LaunchPadLayout2.plist
+```
+### File 2:
+```
+cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist > ~/Desktop/LaunchPadLayout3.plist
 ```
 
 If you need to restore your layout, simply put back the file where it belong (may need to use "sudo" before...);
