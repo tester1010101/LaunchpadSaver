@@ -1,3 +1,4 @@
+# :warning: NOT COMPLETED YET / DO NOT USE :warning:
 # :black_square_button: LaunchpadSaver (v0.1)
 * :recycle: Saves your macOS Launchpad user configuration to a file.
 * :shipit: Can be backed up/hashed to external devices/remote servers.
@@ -11,6 +12,11 @@
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist >> ~/Desktop/LaunchPadLayout.plist
 ```
+### File 2:
+```
+cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist >> ~/Desktop/LaunchPadLayout.plist
+```
+
 If you need to restore your layout, simply put back the file where it belong (may need to use "sudo" before...);
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist > ~/Desktop/LaunchPadLayout.plist.bk
