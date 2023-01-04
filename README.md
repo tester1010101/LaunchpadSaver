@@ -21,6 +21,10 @@ cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.pl
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist > ~/Desktop/LaunchPadLayout3.plist
 ```
+### File 4:
+```
+cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist > ~/Desktop/LaunchPadLayout3.plist
+```
 
 If you need to restore your layout, simply put back the file where it belong (may need to use "sudo" before...);
 ```
