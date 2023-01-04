@@ -33,10 +33,10 @@ cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.pl
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist > ~/Desktop/LaunchPadLayout3.plist.bk
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist > ~/Desktop/LaunchPadLayout4.plist.bk
 
-cat ~/Desktop/LaunchPadLayout.plist > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist
-cat ~/Desktop/LaunchPadLayout2.plist > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.plist
-cat ~/Desktop/LaunchPadLayout3.plist > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist
-cat ~/Desktop/LaunchPadLayout4.plist > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist
+cat ~/Desktop/LaunchPadLayout.plist.bk > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist
+cat ~/Desktop/LaunchPadLayout2.plist.bk > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.plist
+cat ~/Desktop/LaunchPadLayout3.plist.bk > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist
+cat ~/Desktop/LaunchPadLayout4.plist.bk > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist
 ```
 
 ![Have your icons ever started acting weird? Simple fix](https://user-images.githubusercontent.com/91343617/210118185-151c57cb-daae-4b41-b2e6-b667073bc9dc.png)
