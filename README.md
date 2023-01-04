@@ -26,10 +26,17 @@ cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.pl
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist > ~/Desktop/LaunchPadLayout4.plist
 ```
 
-If you need to restore your layout, simply put back the file where it belong (may need to use "sudo" before...);
+If you need to restore your layout, simply put back the files where they belong (may need to use "sudo" before...);
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist > ~/Desktop/LaunchPadLayout.plist.bk
+cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.plist > ~/Desktop/LaunchPadLayout2.plist.bk
+cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist > ~/Desktop/LaunchPadLayout3.plist.bk
+cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist > ~/Desktop/LaunchPadLayout4.plist.bk
+
 cat ~/Desktop/LaunchPadLayout.plist > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist
+cat ~/Desktop/LaunchPadLayout2.plist > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.plist
+cat ~/Desktop/LaunchPadLayout3.plist > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist
+cat ~/Desktop/LaunchPadLayout4.plist > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist
 ```
 
 ![Have your icons ever started acting weird? Simple fix](https://user-images.githubusercontent.com/91343617/210118185-151c57cb-daae-4b41-b2e6-b667073bc9dc.png)
