@@ -9,9 +9,24 @@
 
 > :heavy_exclamation_mark: make sure you don't already have a backup on your Desktop or you can modify the export path, after >>)
 
+
+
 ### Folder (with 3 files):
 ```
-cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist > ~/Desktop/LaunchPadLayout4.plist
+mkdir ~/.swap_
+cd $(getconf DARWIN_USER_DIR)/com.apple.dock.launchpad
+cp -R db ~/.swap_/
+```
+
+### Files:
+```
+ls ~/.swap_/db/
+
+aap@mbook com.apple.dock.launchpad % ls -lh db
+total 3688
+-rw-r--r--  1 aap  staff   1.6M  6 Jan 19:20 db
+-rw-r--r--  1 aap  staff    32K  7 Jan 07:56 db-shm
+-rw-r--r--  1 aap  staff   157K  7 Jan 07:56 db-wal
 ```
 
 ### File 1:
