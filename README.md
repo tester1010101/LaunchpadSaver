@@ -1,6 +1,6 @@
 # :warning: NOT COMPLETED YET / DO NOT USE :warning:
 \###############################################################
-# :black_square_button: LaunchpadSaver (v0.1)
+# :black_square_button: LaunchpadSaver (v0.2)
 * :recycle: Saves your macOS Launchpad user configuration to a file.
 * :shipit: Can be backed up/hashed to external devices/remote servers.
 
