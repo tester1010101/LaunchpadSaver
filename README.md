@@ -7,7 +7,7 @@
 ## :computer: Terminal (Command)
 > :desktop_computer: Enter this commmand to save it to a file on your desktop; 
 
-> :heavy_exclamation_mark: make sure you don't already have a backup on your Desktop or you can modify the export path, after >>)
+> :heavy_exclamation_mark: make sure you don't already have a backup in the folder created or you can modify the rsync path)
 
 
 
@@ -15,7 +15,7 @@
 ```
 mkdir ~/.swap_
 cd $(getconf DARWIN_USER_DIR)/com.apple.dock.launchpad
-cp -R db ~/.swap_/
+rsync -a db ~/.swap_/
 ```
 
 ### Files:
@@ -46,8 +46,7 @@ If you need to restore your layout, simply put back the files where they belong 
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist > ~/Desktop/LaunchPadLayout.plist.bk
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.plist > ~/Desktop/LaunchPadLayout2.plist.bk
-cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist > ~/Desktop/LaunchPadLayout3.plist.bk
-cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist > ~/Desktop/LaunchPadLayout4.plist.bk
+rsync -a ~/.swap_/db $(getconf DARWIN_USER_DIR)/com.apple.dock.launchpad/
 
 cat ~/Desktop/LaunchPadLayout.plist.bk > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist
 cat ~/Desktop/LaunchPadLayout2.plist.bk > /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.plist
