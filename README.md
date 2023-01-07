@@ -9,6 +9,11 @@
 
 > :heavy_exclamation_mark: make sure you don't already have a backup on your Desktop or you can modify the export path, after >>)
 
+### Folder (with 3 files):
+```
+cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist > ~/Desktop/LaunchPadLayout4.plist
+```
+
 ### File 1:
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout.plist > ~/Desktop/LaunchPadLayout.plist
@@ -20,10 +25,6 @@ cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout2.pl
 ### File 3:
 ```
 cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout3.plist > ~/Desktop/LaunchPadLayout3.plist
-```
-### File 4:
-```
-cat /System/Library/CoreServices/Dock.app/Contents/Resources/LaunchPadLayout4.plist > ~/Desktop/LaunchPadLayout4.plist
 ```
 
 If you need to restore your layout, simply put back the files where they belong (may need to use "sudo" before...);
