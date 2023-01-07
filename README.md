@@ -40,3 +40,5 @@ cat ~/Desktop/LaunchPadLayout4.plist.bk > /System/Library/CoreServices/Dock.app/
 ```
 
 ![Have your icons ever started acting weird? Simple fix](https://user-images.githubusercontent.com/91343617/210118185-151c57cb-daae-4b41-b2e6-b667073bc9dc.png)
+
+Credit/source: https://fgimian.github.io/blog/2016/12/23/how-macos-stores-launchpad-configuration/
