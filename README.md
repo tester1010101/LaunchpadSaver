@@ -4,7 +4,7 @@
 * :recycle: Saves your macOS Launchpad user configuration to a folder.
 * :shipit: Can be backed up/hashed to external devices/remote servers.
 
-## :computer: Terminal (Command)
+## :computer: Terminal (Command-line)
 > :desktop_computer: Enter this commmand to save it to a folder in your user folder (~); 
 
 > :heavy_exclamation_mark: make sure you don't already have a backup in the folder created or you can modify the rsync path)
